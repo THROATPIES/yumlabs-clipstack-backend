@@ -1,0 +1,15 @@
+[package]
+name = "yumlabs-twitchrelay"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+actix-web-actors = "4.1"
+actix = "0.13"
+actix-rt = "2.7"
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = {version = "1.0.214", features = ["derive"]}
+serde_json = "1.0.132"
+twitch_comment_stream = "0.1.0"
